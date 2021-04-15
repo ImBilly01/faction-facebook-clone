@@ -1,0 +1,259 @@
+body {
+    background-color: #1b1b1b;
+    margin: 0;
+	padding: 0;
+}
+
+.headings {
+    float: left;
+	margin-top: 13%;
+	margin-left: 13%;
+	font-family: sans-serif;
+	font-size: 28px;
+    color: white;
+}
+
+.first-paragraph {
+    margin-top: -7%;
+}
+
+p {
+    margin-top: 10%;
+    font-family: sans-serif;
+    color: white;
+}
+
+form {
+    float: right;
+	margin-top: 11%;
+	margin-right: 13%;
+}
+
+.email {
+	padding: 17px;
+	border-radius: 5px;
+    background-color: #2c2c2c;
+	padding-right: 37%;
+	text-align: left;
+    width: 100%;
+	padding-left: 10px;
+	font-size: 15px;
+    outline: none;
+	border-style: none;  
+    color: white;
+}
+
+.pass {
+	padding: 17px;
+	border-radius: 5px;
+    background-color: #2c2c2c;
+	padding-right: 37%;
+	text-align: left;
+    width: 100%;
+	padding-left: 10px;
+	font-size: 15px;
+	margin-top: 10px;
+	border-style: none;
+    outline: none;
+    color: white;
+}
+
+.submit-btn {
+    padding: 4%;
+	border-radius: 7px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+	width: 100%;
+	padding-left: 10px;
+	background-color: #1877f2;
+	font-size: 18px;
+	color: white;
+	border-style: none; 
+    outline: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #1767cf;
+}
+
+a {
+    margin-left: 28.5%;
+	text-decoration: none;
+	color: #1877f2;
+	font-family: sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.create-btn {
+    margin-top: 15%;
+    margin-left: 22%;
+    outline: none;
+	padding: 16px;
+	border-radius: 8px;
+	border-style: none;
+	background-color: #42b72a;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+    cursor: pointer;
+}
+
+.create-btn:hover {
+    background-color: #31a01b;
+}
+
+hr {
+    margin-top: 2em;
+    width: 100%;
+    border-color: #707070;
+}
+
+.box {
+    /* border: 3px solid; */
+    padding: 13px;
+    border-radius: 17px;
+    /* box-shadow: 0px 0px 10px 0px #000000; */
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7); */
+    border: 1px solid #272727;
+
+}
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2c2c2c; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #242424;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #313131; 
+  }
+
+  /* Footer */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background: #111; */
+    height: 3em;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-bottom{
+    background: #111;
+    /* width: 50vw; */
+    /* height: 3em; */
+    /* padding-top: 1px; */
+    margin-top: 1px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    padding-top: 17px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media only screen and (max-width: 1500px) {
+    .footer-bottom p {
+        margin-top: 18em;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    .headings {
+        margin-top: 1%;
+        margin-left: 13%;
+    }
+
+    form {
+        margin-top: 1%;
+        margin-right: 13%;
+        margin-left: 12.2%;
+    }
+
+    .footer-bottom p {
+        margin-top: 10em;
+    }
+
+    
+}
+
+@media only screen and (max-width: 464px) {
+    .create-btn {
+        margin-top: 15%;
+        margin-left: 15%;
+        width: 70%;
+        outline: none;
+        padding: 16px;
+        border-radius: 8px;
+        border-style: none;
+        background-color: #42b72a;
+        font-family: sans-serif;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    }
+
+    a {
+        margin-top: 15%;
+        margin: 0 20% 0 25%;
+        width: 100%;
+    }
+}
+/* 
+@media only screen and (max-width: 992px) {
+    form { */
+        /* position: absolute; */
+        /* float: left;
+        margin-top: 1%;
+        margin-right: 13%;
+        margin-left: 12.2%;
+        
+    } */
+
+    /* footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+        /* background: #111; */
+        /* height: 22em;
+        width: 100%;
+        font-family: "Open Sans";
+        padding-top: 40px;
+        color: #fff;
+    }
+
+    .footer-bottom p {
+        margin-top: 30em;
+    }
+} */
